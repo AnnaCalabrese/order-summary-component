@@ -9,6 +9,7 @@
 body{
     margin: 0;
     padding: 0;
+    color: hsl(223, 47%, 23%);
 }
 
 h1, h2, h3 {
@@ -63,7 +64,7 @@ section img{
     padding: 0em 9px;
 }
 .section-flex span{
-    color: black;
+    color: hsl(223, 47%, 23%);
     font-weight: 700;
 }
 .section-flex a{
@@ -88,7 +89,16 @@ section img{
 .btn-cancel{
     color: hsl(224, 23%, 55%);
 }
-
+/* || HOVER STATES */
+.section-flex a:hover {
+    color: hsla(245, 75%, 52%, 0.685);
+}
+.btn-payment:hover{
+    background-color: hsla(245, 75%, 52%, 0.685);
+}
+.btn-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
 /* || MEDIA QUERY FOR DESKTOP VIEW */
 @media (min-width:375px){
     main {
